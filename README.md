@@ -1,0 +1,1 @@
+This is an Automation that retweets from top tech companies. I will add more automation to my tweet bot such as retweeting from other tech websites and liking posts from other tech posts.
