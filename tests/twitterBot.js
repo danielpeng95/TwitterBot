@@ -20,7 +20,8 @@ module.exports = {
             .click('@retweet')
             .waitForElementVisible('@post', 10000)
             .click('@post')
-            .waitForElementVisible('@img', 10000)
-            .click('@img')
+            .waitForElementVisible('@profile', 10000)
+            .click('@profile')
+            .pause(5000)
     }
 }
