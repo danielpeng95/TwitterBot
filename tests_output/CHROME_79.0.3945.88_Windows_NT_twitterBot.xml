@@ -5,9 +5,9 @@
 
   <testsuite name="twitterBot"
     errors="0" failures="0" hostname="" id="" package="twitterBot" skipped="0"
-    tests="1" time="14.22" timestamp="">
+    tests="1" time="24.96" timestamp="">
   
-    <testcase name="Retweet" classname="twitterBot" time="14.22" assertions="4">
+    <testcase name="Retweet" classname="twitterBot" time="24.96" assertions="4">
 
     
 
