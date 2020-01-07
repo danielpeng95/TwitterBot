@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
+<testsuites errors="1"
             failures="0"
-            tests="1">
+            tests="2">
 
   <testsuite name="twitterBot"
-    errors="0" failures="0" hostname="" id="" package="twitterBot" skipped="0"
-    tests="1" time="20.55" timestamp="">
+    errors="1" failures="0" hostname="" id="" package="twitterBot" skipped="0"
+    tests="2" time="35.06" timestamp="">
   
-    <testcase name="Retweet" classname="twitterBot" time="20.55" assertions="4">
+    <testcase name="Retweet" classname="twitterBot" time="21.93" assertions="4">
 
     
 
     
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Like Tweets" classname="twitterBot" time="13.13" assertions="2">
 
     
 
