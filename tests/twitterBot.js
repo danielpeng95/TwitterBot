@@ -1,6 +1,6 @@
 var Twitter
 module.exports = {
-    beforeEach: browser => {
+    before: browser => {
         Twitter = browser.page.twitterPageObj()
         Twitter.navigate()
         .maximizeWindow()
@@ -14,23 +14,26 @@ module.exports = {
             .setValue('@email', 'softwareqa10@yahoo.com')
             .setValue('@password', 'SoftQA1995')
             .click('@submit')
+            .pause(3000)
             .waitForElementVisible('@retweet', 10000)
             .click('@retweet')
+            .pause(3000)
             .waitForElementVisible('@post', 10000)
             .click('@post')
+            .pause(3000)
             .waitForElementVisible('@profile', 10000)
             .click('@profile')
             .pause(5000)
     },
 
-    'Retweet': browser => {
+    'Like Tweets': browser => {
         Twitter
-            .waitForElementVisible('@email', 10000)
-            .setValue('@email', 'softwareqa10@yahoo.com')
-            .setValue('@password', 'SoftQA1995')
-            .click('@submit')
+            .api.url('https://twitter.com/home')
+        Twitter
+            .pause(3000)
             .waitForElementVisible('@like', 10000)
             .click('@like')
+            .pause(3000)
             .waitForElementVisible('@profile', 10000)
             .click('@profile')
             .pause(5000)
