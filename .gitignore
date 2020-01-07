@@ -1,2 +1,2 @@
-*log
+*.log
 /tests_output
