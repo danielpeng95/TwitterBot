@@ -4,8 +4,7 @@ module.exports = {
 
     }],
 
-    elements: { //xPath Selector
-
+    elements: {
         email: {selector: '//input[@type="text"]', locateStrategy: 'xpath'},
         password: {selector: '//input[@type="password"]', locateStrategy: 'xpath'},
         submit: {selector: '//input[@type="submit"]', locateStrategy: 'xpath'},
